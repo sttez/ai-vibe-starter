@@ -2,6 +2,8 @@
 
 本指南帮助你维护和扩展 ai-vibe-starter 生成的项目结构。
 
+**💡 推荐先阅读** [案例研究：MindHub 项目](./CASE_STUDY_MINDHUB.md)，了解一个完整的、现实的实现示例。
+
 ---
 
 ## 1️⃣ `.claude/` — Claude Code 配置中枢

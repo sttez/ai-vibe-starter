@@ -31,6 +31,7 @@ AI 自动识别并执行 `init-project` Skill，完成所有文件的创建。
 | 文档 | 用途 |
 |------|------|
 | [docs/DIRECTORY_GUIDE.md](docs/DIRECTORY_GUIDE.md) | **推荐首先阅读** — 五大目录的编写和维护指南 |
+| [docs/CASE_STUDY_MINDHUB.md](docs/CASE_STUDY_MINDHUB.md) | **真实案例** — 完整的 MindHub 项目使用示例 |
 | [skills/init-project/SKILL.md](skills/init-project/SKILL.md) | 初始化流程和触发条件 |
 | [skills/remove-project/SKILL.md](skills/remove-project/SKILL.md) | 完整移除和清理流程 |
 
@@ -225,7 +226,21 @@ A: 参考 [DIRECTORY_GUIDE.md 中的 Skill 编写清单](docs/DIRECTORY_GUIDE.md
 
 ---
 
-## 🚀 开始使用
+## � 案例研究
+
+想看一个完整的、真实的项目示例吗？
+
+📖 **[MindHub 案例研究](docs/CASE_STUDY_MINDHUB.md)** — 一个 Next.js + TypeScript 项目，展示如何为真实项目配置五大目录：
+
+- **`.claude/settings.json`** — 完整的 MindHub 配置示例
+- **`commands/`** — 7 个实用命令（dev-setup、component-review、deploy 等）
+- **`rules/`** — 代码风格、测试、性能、安全等规则
+- **`skills/`** — setup-supabase、deploy-vercel 等自动化工作流
+- **`agents/`** — 前端专家、AI 专家、技术主管等角色定义
+
+通过这个案例，快速了解如何在你的项目中应用 ai-vibe-starter！
+
+---
 
 **方式一：一键初始化（推荐）**
 
