@@ -30,8 +30,7 @@ AI 自动识别并执行 `init-project` Skill，完成所有文件的创建。
 
 | 文档 | 用途 |
 |------|------|
-| [docs/DIRECTORY_GUIDE.md](docs/DIRECTORY_GUIDE.md) | **推荐首先阅读** — 五大目录的编写和维护指南 |
-| [docs/CASE_STUDY_MINDHUB.md](docs/CASE_STUDY_MINDHUB.md) | **真实案例** — 完整的 MindHub 项目使用示例 |
+| [docs/DIRECTORY_GUIDE.md](docs/DIRECTORY_GUIDE.md) | **📚 完整指南**（包含 MindHub 案例对比和所有实现细节） |
 | [skills/init-project/SKILL.md](skills/init-project/SKILL.md) | 初始化流程和触发条件 |
 | [skills/remove-project/SKILL.md](skills/remove-project/SKILL.md) | 完整移除和清理流程 |
 
@@ -226,19 +225,27 @@ A: 参考 [DIRECTORY_GUIDE.md 中的 Skill 编写清单](docs/DIRECTORY_GUIDE.md
 
 ---
 
-## � 案例研究
+## 📚 MindHub 案例对比指南
 
-想看一个完整的、真实的项目示例吗？
+想快速理解五大目录怎么用吗？
 
-📖 **[MindHub 案例研究](docs/CASE_STUDY_MINDHUB.md)** — 一个 Next.js + TypeScript 项目，展示如何为真实项目配置五大目录：
+📖 **[DIRECTORY_GUIDE.md](docs/DIRECTORY_GUIDE.md)** 中包含了完整的对比表格：
 
-- **`.claude/settings.json`** — 完整的 MindHub 配置示例
-- **`commands/`** — 7 个实用命令（dev-setup、component-review、deploy 等）
-- **`rules/`** — 代码风格、测试、性能、安全等规则
-- **`skills/`** — setup-supabase、deploy-vercel 等自动化工作流
-- **`agents/`** — 前端专家、AI 专家、技术主管等角色定义
+| 目录 | 通用项目 vs MindHub |
+|------|-------------------|
+| `.claude/` | 配置对比 + 代码示例 |
+| `commands/` | 命令对比 + MindHub 实现 |
+| `rules/` | 规范对比 + 具体例子 |
+| `skills/` | Skill 对比 + 部署示例 |
+| `agents/` | Agent 对比 + 角色定义 |
 
-通过这个案例，快速了解如何在你的项目中应用 ai-vibe-starter！
+**特点**：
+- ✅ 左列是通用示例，右列是 MindHub 的真实例子
+- ✅ 小白也能看懂的表格和代码
+- ✅ 包含编写清单和维护建议
+- ✅ 一个文件搞定，不用翻多个文档
+
+👉 **立即查看** → [docs/DIRECTORY_GUIDE.md](docs/DIRECTORY_GUIDE.md)
 
 ---
 
